@@ -1,0 +1,173 @@
+body {
+	background-color: #b2b2b2;
+}
+ 
+nav ul {
+	list-style: none;
+	background-color: #444;
+	text-align: center;
+	margin: 1px;
+}
+nav li {
+	font-family: sans-serif;
+	font-size: 3em;
+	line-height: auto;
+	height: auto;
+	
+}
+nav a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	transition: .3s background-color;
+}
+nav a:hover {
+	background-color: #98bf21;
+}
+nav a.active {
+	background-color: #fff;
+	color: #444;
+	cursor: default;
+}
+.news {
+	margin: 2px;
+	width: auto;
+	background-color: #e6e6e6;
+	border: solid black 4px;
+	padding: .5em;
+	font-family: 'Oswald', sans-serif;
+	word-spacing: .5em;
+	text-align: center;
+}
+.default {
+	margin: 2px;
+	width: auto;
+	text-align: left;
+	background-color: #e6e6e6;
+	border: solid black 4px;
+	padding: .5em;
+	font-family: 'Oswald', sans-serif;
+	word-spacing: .5em;
+}
+//p::first-letter {
+	font-size: 200%;
+	font-weight:900;
+}
+.cssvalid {
+	border:0;
+	width:88px;
+	height:31px
+}
+.back {
+	color: #000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.videowrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.videowrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.everysystem {
+	list-style: none;
+	width: 100%;
+	height: auto;
+}
+blockquote {
+	background: #f9f9f9;
+	border-left: 10px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+blockquote: {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: -0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+/*Mobile Large 620px*/
+@media screen and (min-width: 38.75em) {
+
+}
+
+
+/*Tablet Small 740px*/
+@media screen and (min-width: 46.25em) {
+
+}
+
+
+/*Tablet Large 880px */
+@media screen and (min-width: 55em) {
+
+}
+
+
+/*Desktop Small 955px*/
+@media screen and (min-width: 59.6875em) {
+
+
+}
+
+
+/*15.5 Desktop Medium 1100px */
+@media screen and (min-width: 68.75em) {
+nav {
+	margin: 2px;
+}
+nav li {
+    display: inline-block;
+    margin-right: -4px;
+}
+nav li {
+	width: 400px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 3em;
+}
+.row1{
+	width: 76%;
+	margin-right: 7px;
+}
+.row2{
+	width: 76%;
+	margin-right: 7px;
+}
+.links{
+	float: right;
+	width: 19%;
+}
+aside {
+	text-align: center;
+}
+
+}
+/*15.6 Desktop Large 1240px*/
+@media screen and (min-width: 77.5em) {
+
+}
+
+/*Desktop X-Large 1403px */
+@media screen and (min-width: 87.6875em) {
+
+}
